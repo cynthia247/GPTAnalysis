@@ -4,7 +4,7 @@ import openai
 import csv
 
 df = pd.read_csv("../dataset/TestData.csv")
-openai.api_key = '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'
+openai.api_key = '<YOUR-API-KEY'
 
 df = df.iloc[100:101, :]
 print(df[['Question']].head(5))
